@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400;700&family=Dancing+Script:wght@400..700&family=Exo+2:wght@100&family=Inter:wght@100;400;700&family=Open+Sans&display=swap');
+:root{
+  --primary-color:#6366F1;
+  --accent-color:#3f83f8;
+  --text-color:#333333;
+  --link-color:#2563eb;
+  --background-color:#ffffff;
+  --light-gray:#6a6a6a;
+  --gray:#808080;
+  --dark-gray:#555;
+
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+   
+    box-sizing: border-box;
+    text-decoration:none;
+    
+}
+
+
+
+
+.container-heading {
+
+  width: 100%;
+  margin: 0 auto;
+
+  background-image: url('images/travelimg3.jpg');
+  background-size:cover;
+  background-position:center;
+  display: flex;
+  padding-top: 10rem;
+  color:#ffffff;
+}
+
+  .container-heading h1 {
+    /* max-width: 1380px; */
+  
+    height: 15rem;
+    margin: 0 auto;
+    font-size: 3.8rem;
+  }
+
+
+  /* packages card */
+ .packagesSection{
+    /* max-width: 1680px; */
+    width: 100%;
+    margin:0 auto;
+    /* background: rgb(128,32,49);
+    background: rgb(76,75,22); */
+    background: rgb(99,122,198);
+    background: linear-gradient(90deg, rgba(99,122,198,1) 20%, rgba(194,194,194,1) 100%);
+    padding-top: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.4rem;
+  }
+
+ /* inside cards */
+
+ .heading h2{
+  padding-top: 4rem;
+  max-width: 1380px;
+  margin:0 auto;
+  font-size: 3.3rem;
+  
+ }
+
+ .heading p{
+  max-width:1380px;
+  font-size:1.4rem;
+  color:var(--text-color) ;
+ }
+
+  .cardpack {
+    
+    margin-top: 2.0rem;
+    padding-bottom:1rem;
+    border: 1px solid #9a7f6e;
+
+    padding: 10px;
+    max-width:1380px;
+   
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+   
+
+  }
+  .contentpack {
+    margin-top: 1rem;
+  }
+  
+  .contentpack .header {
+    margin-top: 0.5rem;
+  }
+  
+  .imagepack img {
+    width:30rem;
+    height:24rem;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .tag {
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #fff;
+
+  }
+  
+  .date {
+    display: flex;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    align-items: center;
+    margin: 2px;
+  
+  }
+  
+  .titlepack {
+    display: block;
+    line-height: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+  
+    
+    font-size: 1.8rem;
+  }
+  
+  .descriptionpack {
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    font-size:1.2rem;
+  }  
+
+  .days{
+    font-size: 0.99rem;
+    margin-top:0.7rem;
+  }
+  .destinationcover{
+    font-size: 1.5rem;
+    margin-top:0.5rem;
+  }
+
+.info{
+
+  margin-left:0.9rem;
+}
+  
+@media (max-width: 768px) {
+  .cardpack{
+   flex-direction: column;
+  }
+  .info{
+    margin-left:0;
+  }
+  .container-heading {
+    padding-top:1rem;
+  }
+  .container-heading h1{
+    height: auto;
+  }
+}
