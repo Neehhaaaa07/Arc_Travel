@@ -202,6 +202,9 @@ ul {
     .footer-line{
         font-size: 10px;
     }
+    ul{
+        margin-bottom: 16px;
+    }
 
     /* ************ partners **************** */
     .partners h1{
