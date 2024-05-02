@@ -185,7 +185,7 @@ ul {
         flex-wrap: wrap;
         
     }
-    .logo img{
+    .companylogo{
         padding: 5px;
         width: 17%;
         margin: 0 3px;
@@ -207,7 +207,7 @@ ul {
     .partners h1{
         font-size: 25px;
     }
-    .logo img{
+    .companylogo{
         padding: 3px;
         width: 17%;
     }
