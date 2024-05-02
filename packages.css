@@ -84,6 +84,7 @@ html{
   max-width: 1380px;
   margin:0 auto;
   font-size: 3.3rem;
+   padding: 0.2rem;
   
  }
 
@@ -176,6 +177,7 @@ html{
 @media (max-width: 768px) {
   .cardpack{
    flex-direction: column;
+   width: 30rem;
   }
   .info{
     margin-left:0;
@@ -185,5 +187,21 @@ html{
   }
   .container-heading h1{
     height: auto;
+    padding:0.2rem;
   }
+  .imagepack {
+    display: flex;
+    
+    justify-content: center;
+   
+  }
+  .heading h2{
+    text-align: center;
+  }
+  .heading p{
+    text-align: center;
+  }
+  
+}
+
 }
