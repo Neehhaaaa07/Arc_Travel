@@ -88,6 +88,12 @@ nav ul {
   list-style-type: none;
   display: flex;
 }
+@media screen and (max-width:480px){
+  nav ul {
+     font-size: 1.2rem;
+     
+  }}
+
 
 nav li {
   position: relative;
@@ -106,6 +112,10 @@ nav li a {
   z-index: 99;
   border-radius: 10px;
 }
+@media screen and (max-width:480px){
+  .dropdown {
+     width: 9rem;
+  }}
 
 .dropdown li {
   display: block;
