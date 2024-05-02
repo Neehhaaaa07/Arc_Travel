@@ -568,6 +568,7 @@ padding:0.5rem;
 @media (max-width: 768px) {
   .moreAboutGrid {
     grid-template-columns: repeat(4, 1fr);
+      padding-left:1rem;
   }
   .headingOfMoreAbout {
     font-size:3.3rem;
